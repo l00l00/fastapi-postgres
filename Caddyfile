@@ -1,0 +1,7 @@
+r.rekit.online {
+    reverse_proxy /docs* fastapi:8000
+}
+
+s.rekit.online {
+    reverse_proxy pgadmin:5050
+}
